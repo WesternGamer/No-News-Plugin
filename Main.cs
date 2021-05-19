@@ -30,7 +30,10 @@ namespace No_News_Plugin
         /// </summary>
         public void Init(object gameInstance)
         {
-            
+            //Starts an instance of Harmony
+            Harmony harmony = new Harmony("No_News_Plugin");
+            //Patches all patches in the plugin.
+            harmony.PatchAll();
         }
         /// <summary>
         /// Unused
