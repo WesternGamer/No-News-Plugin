@@ -9,16 +9,7 @@ namespace No_News_Plugin
     /// </summary>
     public class Main : IPlugin
     {
-        /// <summary>
-        /// Starts an instance of Harmony to patch the main menu and pause menu.
-        /// </summary>
-        public Main()
-        {
-            //Starts an instance of Harmony
-            Harmony harmony = new Harmony("No_News_Plugin");
-            //Patches all patches in the plugin.
-            harmony.PatchAll();
-        }
+        
         /// <summary>
         /// Unused
         /// </summary>
