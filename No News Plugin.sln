@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "No News Plugin", "No News Plugin.csproj", "{E4F34D17-E019-4F2E-995A-AAD9F097EBDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4F34D17-E019-4F2E-995A-AAD9F097EBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F34D17-E019-4F2E-995A-AAD9F097EBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F34D17-E019-4F2E-995A-AAD9F097EBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F34D17-E019-4F2E-995A-AAD9F097EBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1598290D-6C6B-4891-B27C-669EEC3A3599}
+	EndGlobalSection
+EndGlobal
