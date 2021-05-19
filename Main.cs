@@ -1,4 +1,5 @@
-﻿using Sandbox.Game;
+﻿using HarmonyLib;
+using Sandbox.Game;
 using VRage.Plugins;
 
 namespace No_News_Plugin
@@ -8,6 +9,11 @@ namespace No_News_Plugin
     /// </summary>
     public class Main : IPlugin
     {
+        public Main()
+        {
+            Harmony harmony = new Harmony("No_News_Plugin");
+            harmony.PatchAll();
+        }
         /// <summary>
         /// Unused
         /// </summary>
@@ -17,12 +23,11 @@ namespace No_News_Plugin
 
         public void Init(object gameInstance)
         {
-            MyPerGameSettings.GUI.MainMenu = typeof(MyModifiedMainMenu);
+            
         }
 
         public void Update()
         {
-            MyPerGameSettings.GUI.MainMenu = typeof(MyModifiedMainMenu);
         }
     }
 }

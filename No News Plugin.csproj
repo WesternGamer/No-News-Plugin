@@ -36,6 +36,9 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>C:\Users\Kevin Nguyen\Downloads\Harmony.2.0.4.0\net472\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Sandbox.Game">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\Sandbox.Game.dll</HintPath>
     </Reference>
@@ -65,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
-    <Compile Include="MyModifiedMainMenu.cs" />
+    <Compile Include="MyMainMenuPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
