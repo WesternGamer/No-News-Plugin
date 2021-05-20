@@ -9,7 +9,6 @@ namespace No_News_Plugin
     /// </summary>
     public class Main : IPlugin
     {
-        
         /// <summary>
         /// Unused
         /// </summary>
@@ -17,7 +16,7 @@ namespace No_News_Plugin
         { 
         }
         /// <summary>
-        /// Unused
+        /// Adds the patch of removing the DLC and News area.
         /// </summary>
         public void Init(object gameInstance)
         {
