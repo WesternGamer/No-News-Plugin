@@ -1,8 +1,9 @@
 ﻿using HarmonyLib;
 using Sandbox.Game;
+using System.Reflection;
 using VRage.Plugins;
 
-namespace No_News_Plugin
+namespace NoNewsPlugin
 {
     /// <summary>
     /// Where the plugin is started.
@@ -21,9 +22,9 @@ namespace No_News_Plugin
         public void Init(object gameInstance)
         {
             //Starts an instance of Harmony
-            Harmony harmony = new Harmony("No_News_Plugin");
+            Harmony harmony = new Harmony("NoNewsPlugin");
             //Patches all patches in the plugin.
-            harmony.PatchAll();
+            harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
         /// <summary>
         /// Unused

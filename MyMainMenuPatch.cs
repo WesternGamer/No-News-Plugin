@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using SpaceEngineers.Game.GUI;
 
-namespace No_News_Plugin
+namespace NoNewsPlugin
 {
     /// <summary>
     /// Where the main menu is actually patched. Thanks to austinvaness for making this code for me!
